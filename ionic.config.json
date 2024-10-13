@@ -1,5 +1,5 @@
 {
-  "name": "qrcode-scanner",
+  "name": "QRCode Scanner",
   "integrations": {
     "capacitor": {}
   },
