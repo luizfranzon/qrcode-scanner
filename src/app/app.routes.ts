@@ -3,13 +3,8 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'scanner',
+    redirectTo: 'history',
     pathMatch: 'full',
-  },
-  {
-    path: 'scanner',
-    loadComponent: () =>
-      import('./screens/scanner/scanner.page').then((m) => m.ScannerPage),
   },
   {
     path: 'history',
@@ -18,6 +13,7 @@ export const routes: Routes = [
   },
   {
     path: 'create',
-    loadComponent: () => import('./screens/create/create.page').then( m => m.CreatePage)
+    loadComponent: () =>
+      import('./screens/create/create.page').then((m) => m.CreatePage),
   },
 ];

@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="dismiss()">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Scan complete</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-title class="mt-5">Scan result:</ion-title>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-textarea rows="15" [value]="scanResultData"></ion-textarea>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="px-4 mt-4">
+    <ion-button (click)="copyResultToClipboard()" size="block">
+      <ion-icon slot="start" name="copy-outline"></ion-icon>
+      <ion-label>Copy</ion-label>
+    </ion-button>
+  </div>
+</ion-content>

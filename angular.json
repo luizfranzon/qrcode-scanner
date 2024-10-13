@@ -31,7 +31,11 @@
                 "output": "assets"
               }
             ],
-            "styles": ["src/styles/global.scss", "src/theme/variables.scss"],
+            "styles": [
+              "src/styles/tailwind.css",
+              "src/styles/global.scss",
+              "src/theme/variables.scss"
+            ],
             "scripts": []
           },
           "configurations": {

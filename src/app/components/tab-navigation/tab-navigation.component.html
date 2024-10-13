@@ -1,10 +1,21 @@
 <ion-tabs>
-  <ion-tab-bar slot="bottom">
-    @for(tab of tabs; track tab.title) {
-    <ion-tab-button [routerLink]="tab.url" [tab]="tab.url">
-      <ion-icon [name]="tab.icon"></ion-icon>
-      <ion-label>{{ tab.title }}</ion-label>
+  <ion-tab-bar ta slot="bottom">
+    <ion-tab-button routerLink="history" tab="history">
+      <ion-icon name="time-outline"></ion-icon>
+      <ion-label>History</ion-label>
     </ion-tab-button>
-    }
+    <ion-tab-button
+      class="bg-[#4d8dff] rounded"
+      tab="scanner"
+      (click)="startScan()"
+    >
+      <div>
+        <ion-icon color="light" size="large" name="qr-code-outline"></ion-icon>
+      </div>
+    </ion-tab-button>
+    <ion-tab-button routerLink="create" tab="create">
+      <ion-icon name="add-outline"></ion-icon>
+      <ion-label>Create</ion-label>
+    </ion-tab-button>
   </ion-tab-bar>
 </ion-tabs>

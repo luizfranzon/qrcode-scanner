@@ -6,6 +6,7 @@ import {
   IonHeader,
   IonTitle,
   IonToolbar,
+  IonIcon,
 } from '@ionic/angular/standalone';
 
 @Component({
@@ -13,6 +14,7 @@ import {
   templateUrl: './create.page.html',
   standalone: true,
   imports: [
+    IonIcon,
     IonContent,
     IonHeader,
     IonTitle,
