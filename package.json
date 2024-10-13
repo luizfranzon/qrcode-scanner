@@ -33,6 +33,7 @@
     "@capacitor/storage": "^1.2.5",
     "@ionic/angular": "^8.0.0",
     "@types/uuid": "^10.0.0",
+    "angularx-qrcode": "^18.0.2",
     "ionicons": "^7.2.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
