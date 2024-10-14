@@ -48,12 +48,6 @@ ionic serve
 ```
 <hr>
 
-### Running on a Device or Emulator
-```bash
-ionic cordova run android   # For Android
-ionic cordova run ios       # For iOS
-```
-
 ## Roadmap
 
 - [x] **Implement QR Code Scanner**: Integrate a QR code scanner into the app. <br>
