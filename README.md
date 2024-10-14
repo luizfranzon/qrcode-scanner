@@ -14,7 +14,7 @@ This is a *practice project* designed to apply and enhance my skills in **Ionic*
   </p>
 </figure>
 
-## Installation
+## Starting the development server
 
 Make sure you have the following tools installed before proceeding:
 
